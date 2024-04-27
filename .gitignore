@@ -88,3 +88,6 @@ Packages/*
 
 # DOTS
 /[Aa]ssets/SceneDependencyCache/
+
+# Addressables
+/CCDBuildData/
