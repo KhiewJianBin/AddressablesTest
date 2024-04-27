@@ -78,10 +78,12 @@ public class AddressablesTest : MonoBehaviour
 
             loadScreen.SetActive(false);
         }
+        else
+        {
+            var newplayer = Instantiate(player_Prefab.Asset, transform) as GameObject;
 
-        var newplayer = Instantiate(player_Prefab.Asset, transform) as GameObject;
-
-        players.Add(newplayer);
+            players.Add(newplayer);
+        }
     }
 
     void ClearPlayers()
